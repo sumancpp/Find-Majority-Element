@@ -3,10 +3,10 @@
 #include<vector>
 using namespace std;
 int main(){
-      vector<int>nums={1,2,2,2,1};
-      int n=nums.size();
+      vector<int>nums={1, 2, 2, 2, 1};
+      int n = nums.size();
       for(int val : nums){
-        int flag=0;
+        int flag = 0;
         for(int el : nums){
             if(el == val){
                 flag++;
@@ -17,8 +17,5 @@ int main(){
             return 0;
         }
       }
-
-
-
-    return 0;
+return 0;
 }
